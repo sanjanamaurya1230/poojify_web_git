@@ -24,6 +24,7 @@ final GoRouter appRouter = GoRouter(
     ),
   ],
 );
+// hii 23 june
 
 void main() {
   setPathUrlStrategy(); // Removes # from web URL

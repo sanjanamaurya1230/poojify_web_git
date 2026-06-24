@@ -243,7 +243,7 @@ class _PlayStoreButtonState extends State<_PlayStoreButton> {
   Future<void> _open() async {
     // ← Replace with your real Play Store package name
     final uri = Uri.parse(
-        'https://play.google.com/store/apps/details?id=com.poojify.app');
+        'https://play.google.com/store/apps/details?id=com.fc.poojify');
     if (await canLaunchUrl(uri)) {
       await launchUrl(uri, mode: LaunchMode.externalApplication);
     }
